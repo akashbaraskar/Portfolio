@@ -1,3 +1,4 @@
+import React from "react";
 import achievements from "../data/achievements";
 
 function Achievements() {
