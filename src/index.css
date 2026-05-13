@@ -1,0 +1,80 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  @apply bg-white text-black dark:bg-slate-950 dark:text-white;
+  font-family: system-ui, sans-serif;
+} */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Layout fix */
+html,
+body,
+#root {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* 🌈 Global Theme */
+body {
+  @apply bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100 
+         text-gray-800 
+         dark:from-slate-950 dark:via-slate-900 dark:to-black 
+         dark:text-gray-200;
+  font-family: 'Poppins', system-ui, sans-serif;
+}
+
+/* ✨ Glass Effect (Reusable) */
+.glass {
+  @apply bg-white/20 dark:bg-white/10 
+         backdrop-blur-lg 
+         border border-white/20 
+         shadow-lg 
+         rounded-2xl;
+}
+
+/* 🌟 Gradient Text */
+.gradient-text {
+  @apply bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 
+         bg-clip-text text-transparent;
+}
+
+/* 🚀 Button Style */
+.btn-primary {
+  @apply px-6 py-3 rounded-xl font-semibold 
+         bg-gradient-to-r from-blue-500 to-indigo-600 
+         text-white shadow-md 
+         hover:scale-105 hover:shadow-xl 
+         transition-all duration-300;
+}
+
+/* 🌈 Section spacing */
+.section {
+  @apply py-20 px-6 md:px-12;
+}
+
+/* 🔥 Card Design */
+.card {
+  @apply glass p-6 hover:scale-105 transition duration-300;
+}
