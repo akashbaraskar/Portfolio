@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Profile from "../assets/Profile.jpg";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
