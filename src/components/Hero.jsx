@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import profile from "../assets/profile.jpg";
+import Profile from "../assets/Profile.jpg";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 function Hero() {
@@ -106,7 +106,7 @@ function Hero() {
   "
             >
               <img
-                src={profile}
+                src={Profile}
                 alt="Akash Baraskar"
                 className="w-full h-full object-cover object-top"
               />
