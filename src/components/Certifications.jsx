@@ -1,3 +1,4 @@
+import React from "react";
 import certifications from "../data/certifications";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
