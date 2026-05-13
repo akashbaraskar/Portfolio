@@ -1,3 +1,4 @@
+import React from "react";
 import projects from "../data/projects";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
