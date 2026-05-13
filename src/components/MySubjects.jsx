@@ -1,3 +1,4 @@
+import React from "react";
 import subjects from "../data/subjects";
 import { FaBookOpen, FaExternalLinkAlt } from "react-icons/fa";
 
